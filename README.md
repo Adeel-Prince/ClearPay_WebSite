@@ -5,7 +5,7 @@ Built with plain **HTML5, CSS and vanilla JavaScript** (no frameworks, no build 
 
 - **Live site:** `https://YOUR-USERNAME.github.io/clearpay/` _(replace after deploying)_
 - **Repository:** `https://github.com/YOUR-USERNAME/clearpay` _(replace after creating the repo)_
-- **Author:** Adeel Ahmad, Reg. No. SEP26-FE24-13
+- **Author:** Adeel Ahmad, Reg. No: SEP26-FE24-13
 
 ## Pages
 
