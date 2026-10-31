@@ -24,17 +24,17 @@ Built with plain **HTML5, CSS and vanilla JavaScript** (no frameworks, no build 
 
 ## 🛠️ Requirements checklist
 
-| Requirement | Where it is implemented |
-| :--- | :--- |
-| **Semantic HTML5, zero accessibility errors** | `<header> <nav> <main> <footer>`, skip link, one `<h1>` per page, labelled controls, `aria-*` only where needed |
-| **CSS design token system** | `css/tokens.css` (colour, type scale, spacing, radius, shadow, motion, layers; light and dark values) |
-| **Layout from 320px to 2560px** | Fluid type with `clamp()`, `min()`/`minmax()` grids, container width, root font-size scaling at 1920px and 2400px |
-| **Real-time JavaScript pricing calculator** | `js/pricing.js` (updates on every input; compares 3 plans and a typical processor) |
-| **Filterable features section** | `js/features.js` (category buttons with `aria-pressed`, search, live count, empty state) |
-| **Intersection Observer scroll animations** | `js/main.js` (`.reveal` fade-up, animated counters; respects `prefers-reduced-motion`) |
-| **Validated contact form** | `js/contact.js` (inline errors, error summary, focus management, success message) |
-| **localStorage theme persistence** | `js/theme.js` + tiny inline script in each `<head>` (no flash of wrong theme; follows system setting by default) |
-| **Lighthouse above 90 (performance, accessibility, best practices)** | No images, no web fonts, no third-party code, ~45 KB per page, deferred scripts, valid ARIA, AA contrast |
+| Requirement                                                          | Where it is implemented                                                                                           |
+| :------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------- |
+| **Semantic HTML5, zero accessibility errors**                        | `<header> <nav> <main> <footer>`, skip link, one `<h1>` per page, labelled controls, `aria-*` only where needed   |
+| **CSS design token system**                                          | `css/tokens.css` (colour, type scale, spacing, radius, shadow, motion, layers; light and dark values)             |
+| **Layout from 320px to 2560px**                                      | Fluid type with `clamp()`, `min()`/`minmax()` grids, container width, root font-size scaling at 1920px and 2400px |
+| **Real-time JavaScript pricing calculator**                          | `js/pricing.js` (updates on every input; compares 3 plans and a typical processor)                                |
+| **Filterable features section**                                      | `js/features.js` (category buttons with `aria-pressed`, search, live count, empty state)                          |
+| **Intersection Observer scroll animations**                          | `js/main.js` (`.reveal` fade-up, animated counters; respects `prefers-reduced-motion`)                            |
+| **Validated contact form**                                           | `js/contact.js` (inline errors, error summary, focus management, success message)                                 |
+| **localStorage theme persistence**                                   | `js/theme.js` + tiny inline script in each `<head>` (no flash of wrong theme; follows system setting by default)  |
+| **Lighthouse above 90 (performance, accessibility, best practices)** | No images, no web fonts, no third-party code, ~45 KB per page, deferred scripts, valid ARIA, AA contrast          |
 
 ---
 
@@ -103,10 +103,10 @@ Go to ://netlify.com > **Add new site > Deploy manually** and drag the files ont
 
 ## 🧠 Design notes
 
-* **Tokens first:** every colour, size and duration comes from `css/tokens.css`. The dark theme only overrides colour tokens.
-* **Accessibility:** keyboard operable everywhere, visible focus ring, 44px+ touch targets, AA contrast in both themes, status messages announced politely, reduced-motion support.
-* **Progressive enhancement:** with JavaScript off, the content, navigation and forms markup remain visible; animations only hide content when JavaScript is running.
-* **Performance:** system font stack, inline SVG icons, no images, small CSS/JS, `defer` on scripts.
+- **Tokens first:** every colour, size and duration comes from `css/tokens.css`. The dark theme only overrides colour tokens.
+- **Accessibility:** keyboard operable everywhere, visible focus ring, 44px+ touch targets, AA contrast in both themes, status messages announced politely, reduced-motion support.
+- **Progressive enhancement:** with JavaScript off, the content, navigation and forms markup remain visible; animations only hide content when JavaScript is running.
+- **Performance:** system font stack, inline SVG icons, no images, small CSS/JS, `defer` on scripts.
 
 ---
 
